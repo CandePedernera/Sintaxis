@@ -101,7 +101,7 @@ error("T");
         } else if (match('.') || match('|') || match(')') || match('#')) {
             return; // lambda
         } else {
-            error("Valegay");
+            error("F'");
         }
     }
     public void Tprima() {
