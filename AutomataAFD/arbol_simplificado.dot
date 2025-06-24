@@ -1,0 +1,8 @@
+digraph G {
+    node [shape=circle, style=filled, fillcolor=black, fontcolor=white];
+    n3 [label="|"];
+    n3 -> n2;
+    n2 [label="c"];
+    n3 -> n4;
+    n4 [label="b"];
+}

@@ -1,0 +1,12 @@
+digraph AFN {
+    rankdir=LR;
+    node [shape=circle];
+    inicio [shape=point];
+    inicio -> q2;
+    q3 [shape=doublecircle];
+    q0 -> q1 [label="a"];
+    q2 -> q0 [label="λ"];
+    q1 -> q0 [label="λ"];
+    q1 -> q3 [label="λ"];
+    q2 -> q3 [label="λ"];
+}
